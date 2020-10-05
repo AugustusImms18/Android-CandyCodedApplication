@@ -87,6 +87,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intentToInfo= new Intent(this, InfoActivity.class);
         startActivity(intentToInfo);
         return super.onOptionsItemSelected(item);
+	//Added the code
     }
 
     private void addCandiesToDatabase(Candy[] candies) {
